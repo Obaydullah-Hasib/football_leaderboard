@@ -1,0 +1,148 @@
+    @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Yanone+Kaffeesatz&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    
+    header {
+        background-color: #2D25A0;
+        width: 100%;
+        height: 700px;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 1164px;
+        height: 44px;
+        left: 156px;
+        top: 42px;
+        /* margin-left: 5%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%; */
+    }
+    
+    nav ul {
+        margin-top: 30px;
+        display: flex;
+    }
+    
+    nav ul li {
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-right: 15px;
+        /* padding-right: 10px; */
+    }
+    
+    a {
+        color: white;
+    }
+    
+    .link-buttons {
+        border-radius: 5px;
+        padding: 5px;
+        background-color: tomato;
+    }
+    
+    .banner {
+        display: flex;
+        justify-content: space-around;
+        /* justify-items: center; */
+        align-items: center;
+        padding-top: 150px;
+        padding-bottom: 86px;
+    }
+    
+    .banner img {
+        height: 438px;
+        width: 556.0103149414062px;
+        left: 1299.01025390625px;
+        border-radius: 0px;
+        overflow: hidden;
+    }
+    
+    .banner h1 {
+        position: absolute;
+        width: 485px;
+        height: 230px;
+        left: 156px;
+        top: 207px;
+        font-size: 64px;
+        font-family: Poppinns;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 80px;
+        color: aliceblue;
+    }
+    
+    .banner a {
+        padding: 8px;
+        margin-top: 200px;
+        display: block;
+    }
+    
+    .top-players {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        justify-items: center;
+        margin-top: 70px;
+    }
+    
+    .player {
+        height: 474px;
+        width: 330px;
+        left: 180px;
+        top: 762px;
+        border-radius: 0px;
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    
+    .player img {
+        height: 256px;
+        width: 300px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+    }
+    
+    .player-description h1 {
+        margin-top: 10px;
+    }
+    
+    .player-description h1 a {
+        color: #000;
+    }
+    
+    .player-description p {
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        overflow-wrap: normal;
+    }
